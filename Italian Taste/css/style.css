@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'OpenSans Bold';
+    src:  url(/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Veles Regular';
+    src: url(/fonts/Veles-Regular.0.9.2.otf)
+}
+
+@font-face {
+    font-family: 'OpenSans Italic';
+    src: url(/fonts/OpenSans-Italic.ttf)
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url(/fonts/OpenSans-ExtraBold.ttf)
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url(/fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding-left: 100px;
+    background: url("/img/background1.png") no-repeat center center/cover;
+    height: 1050px;
+    width: 100%;
+}
+
+.nav {
+    padding-top: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 50%;
+}
+
+.nav_link {
+    padding-top: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 40px;
+    color:#fff;
+    text-decoration: none;
+    font-family: 'OpenSans Bold';
+    transition:color 0.2s linear;
+}
+
+.nav_link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px; 
+    background-color: #b9b9b9;
+    opacity: 0;
+    transform: opacity 0.5s linear;
+}
+
+.nav_link:hover {
+    color: #b9b9b9;
+    
+}
+
+.nav_link:hover::after {
+    opacity: 1;
+    
+}
+
+* {box-sizing: border-box;}
+form {
+    padding-top: 50px;
+    position: absolute;
+    width: 180px;
+    margin: 0 auto;
+    left: 87%;
+    top: 29px;
+}
+
+input {
+    padding-left: 15px;
+    padding-right: 50px;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    border: #fff;
+    border-radius: 30px;
+    outline: none;
+    background: #fff;
+    font-family: 'OpenSans Bold';
+}
+
+button {
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+button:before {
+    font-family: 'OpenSans Bold';
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.search {
+    position: absolute;
+    left: 94%;
+    top: 90px;
+}
+
+.logotype {
+    margin-top: 100px; 
+}
+
+.text1 h1{
+    font-family: 'Veles Regular';
+    font-size: 100px;
+    margin-top: 80px;
+    color: #fff;
+}
+.text1 #p1 {
+    font-family: 'OpenSans Bold';
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.text1 button {
+    width: 200px;
+    height: 50px;
+    border-radius:30px;
+    margin-top: 100px;
+    font-family: 'OpenSans-ExtraBold';
+    text-transform: uppercase;
+    font-size: 25px;
+    transition:color 0.2s linear;
+}
+
+.text1 button:hover {
+    background-color:#b9b9b9;
+    color:#fff;
+    border-color: #b9b9b9;
+}
+
+.text1 #p2 {
+    font-family: 'OpenSans Italic';
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.pr1 {
+    position: absolute;
+    left: 55%;
+    top: 25%;
+}
+
+.pr7 {
+    position: absolute;
+    left: 45%;
+    top: 68%;
+}
+
+.container2 {
+    position: relative;
+    height: 1200px;
+    width: 100%;
+    color: #fff;
+}
+
+.container2 .text2 h1{
+    font-family: 'Veles Regular';
+    font-size: 100px;
+    color: #000;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.container2 .text2 p {
+    margin-top: 50px;
+    font-family: 'OpenSans-SemiBold';
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.menu {
+    padding: 130px 0;
+}
+
+.menu_plate {
+    position: relative;
+    display: inline-block;
+}
+
+.menu_plate #plate1 {
+    position: absolute;
+    margin-left: 300px;
+}
+
+.menu_plate #plate2 {
+    position: absolute;
+    margin-left: 830px;
+}
+
+.menu_plate #plate3 {
+    position: absolute;
+    margin-left: 1340px;
+}
+
+.nav_title1 {
+    font-size: 20px;
+    margin-left: 8%;
+    margin-top: 18%;
+}
+
+.title1 {
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 7%;
+    margin-left: 10%;
+    color:#000;
+    font-family: 'OpenSans Bold';
+}
+
+.nav_title2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 17.5%;
+}
+
+.nav_title2  #tit1 {
+    font-family: 'OpenSans Regular';
+    display: inline-block;
+    font-size: 25px;
+    color:#000;
+    margin-left: -0.3%;
+    margin-right: 10.5%;
+}
+.nav_title2  #tit2 {
+    font-family: 'OpenSans Regular';
+    display: inline-block;
+    font-size: 25px;
+    color:#000;
+    margin-right: 10.5%;
+}
+.nav_title2  #tit3 {
+    font-family: 'OpenSans Regular';
+    display: inline-block;
+    font-size: 25px;
+    color:#000;
+}
+
+.container2 button {
+    width: 330px;
+    height: 70px;
+    border-radius:40px;
+    margin-top: 130px;
+    background:#000;
+    margin-left: 42%;
+    transition:color 0.2s linear;
+}
+
+.container2 button:hover {
+    background-color:#7e7e7e;
+    color:#000;
+    border-color: #7e7e7e;
+}
+
+.container2 .but_menu {
+    font-family: 'OpenSans-ExtraBold';
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+}
+
+.container3 {
+    background: url("/img/background1.png") no-repeat center center/cover;
+    height: 1200px;
+    width: 100%;
+}
+
+.container3 h1 {
+    font-family: 'Veles Regular';
+    font-size: 100px;
+    padding-top: 140px;
+    text-align: center;
+    color:#fff;
+}
+
+.container3 p {
+    font-family: 'Montserrat-Regular';
+    font-size: 25px;
+    margin-top: 80px;
+    text-align: center;
+    color:#fff;
+}
+
+.container3 p::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 10px;
+    margin: auto;
+    background-color:#fff;
+    margin-top: 40px;
+}
+
+.pizza {
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.container4 {
+    height: 800px;
+}
+
+.title_below {
+    font-size: 40px;
+    margin-left: 8%;
+    margin-top: 18%;
+}
+
+.title2 {
+    font-size: 50px;
+    display: inline-block;
+    margin-right: 7%;
+    margin-left: 7%;
+    color:#000;
+    font-family: 'Veles Regular';
+}
+
+.title_little {
+    font-family: 'OpenSans Regular';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 13%;
+}
+
+.title_little  #tit_lil1 {
+    font-family: 'OpenSans Regular';
+    display: inline-block;
+    font-size: 25px;
+    color:#000;
+    margin-left: -0.3%;
+    margin-right: 8%;
+}
+.title_little #tit_lil2 {
+    font-family: 'OpenSans Regular';
+    display: inline-block;
+    font-size: 25px;
+    color:#000;
+    margin-right: 8%;
+}
+.title_little  #tit_lil3 {
+    font-family: 'OpenSans Regular';
+    display: inline-block;
+    font-size: 25px;
+    color:#000;
+}
+
+.container4 p {
+    margin-top: 320px;
+    font-size: 30px;
+    font-family: 'Montserrat-Regular';
+    text-align: center;
+}
+
+.container4 h1 {
+    font-family: 'OpenSans Bold';
+    margin-top: 60px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container #baz1 {
+    position: absolute;
+    left: 62%;
+    top: 63.5%;
+}
+
+.container3 #baz2 {
+    position: absolute;
+    left: 15%;
+    top: 215%;
+}
+
+.container3 #baz3 {
+    position: absolute;
+    left: 85%;
+    top: 189.5%;
+}
+
+.container_footer {
+    
+    padding-left: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_footer h1{
+    font-family: 'Montserrat-Regular';
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.container_footer p {
+    font-family: 'Montserrat-Regular';
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.footer_img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container_footer ui {
+    
+    list-style-type: none;
+    font-family: 'Montserrat-Regular';
+    font-size: 30px;
+}
+
+.container_footer li {
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.footer_main {
+    
+    margin-left: -1%;
+}
+
+.footer_sup {
+    margin-right: 9%;
+}
+
+.container_footer li a{
+    text-decoration: none;
+    color: #000;
+}
